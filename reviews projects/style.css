@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color:black;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif, 'Arial Narrow', Arial, sans-serif;
+    width:550px;
+    position:absolute;
+    left:400px;
+    right:0;
+}
+.title{
+    color:#ff001f;
+}
+.container{
+  text-align:center;
+}
+.heading{
+    font-size:40px;
+    text-decoration:underline;
+    text-decoration-thickness: 2px; /* Adjust the thickness as needed */
+    text-decoration-color: #2FF3E0; /* Adjust the color as needed */
+    text-underline-offset: 5px;
+}
+#person-img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    box-shadow:4px 4px 4px 6px #E7D2CC;  
+    margin-top:50px;
+}
+#author{
+    font-size:30px;
+    font-weight:bold;
+    margin-top:20px;
+    animation :  colorchange  5s infinite ease-in; 
+}
+#job{
+    font-size:15px;
+    font-weight:bold;
+    margin:10px;
+ 
+}
+.button-container{
+    cursor:pointer;
+}
+.prev-btn{
+    background:transparent;
+    color:white;
+    margin:20px;
+}
+.next-btn{
+    background:transparent;
+    color:white;
+    margin:20px;
+}
+
+.random-btn{
+    background-color:#1de2d2;
+    width:10em;
+    height:3em;
+    border-radius:10px;
+    outline:none;
+
+}
+.random-btn:hover{
+    border:3px solid #f80780;
+
+}
+ @keyframes colorchange {
+    0%{
+        color:#f80780;
+    }
+    20%{
+        color:#d0e11e;
+    }
+    50%{
+        color:darkred;
+    }
+    65%{
+        color:blue;
+    }
+    85%{
+        color:darkorchid;
+    }
+    100%{
+        color:#ff001f;
+    }
+    
+ }
